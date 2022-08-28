@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+        <script>
+            let student = [
+{
+fullname: 'นายsunny ',
+age: 2547,
+year: 1,
+gpa: 3.40,
+help: true
+},
+{
+fullname: 'นายสง่าง่าม ตลอดมา',
+age: 2546,
+year: 2,
+gpa: 3.00,
+help: false
+},
+{
+fullname: 'นางสาวหลายใจ ดีงาม',
+age: 2545,
+year: 3,
+gpa: 2.90,
+help: true
+},
+
+
+]
+       for (let i=0 ;i<student.length;i++){
+       
+       if(student[i].gpa>=3.20){
+        console.log(student[i].fullname)
+       }
+       else if(student[i].year>=2 && student[i].gpa>=2.75 && student[i].help==true){
+        console.log(student[i].fullname)
+       
+       }
+    }
+
+        </script>
+</html>
